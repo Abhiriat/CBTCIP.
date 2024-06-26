@@ -1,0 +1,512 @@
+*{
+    margin: 0px;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: rgb(0, 7, 104);
+    
+}
+
+.container {
+    width: 100%;
+}
+.navbar{
+    border-bottom: 1px solid black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.intro {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.intro h1 {
+    color: black;
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.intro p {
+    color: grey;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.intro-pic {
+    width: 500px;
+    border-radius: 12px;
+}
+
+.skills {
+    margin-top: 150px;
+}
+
+.skills-text {
+    text-align: center;
+}
+
+.skills-text h3 {
+    color: black;
+}
+
+.skills-text h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.skills-text p {
+    color: grey;
+    font-size: 15px;
+}
+
+.skill-box {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    position: relative;
+    left: -10px;
+}
+
+.skill-box-content {
+    text-align: center;
+    width: 360px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.skill-box-content h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+}
+
+.skill-box-content p {
+    text-align: center;
+    color: grey;
+}
+
+#skill-box-content-3 {
+    position: relative;
+    top: -10px;
+}
+
+.skill-box-content i {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.project-text {
+    text-align: center;
+}
+
+.project-text h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.project-text p {
+    color: grey;
+    font-size: 15px;
+}
+
+.project-box {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    position: relative;
+    left: -5px;
+    
+}
+
+.project-box-content h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+}
+
+.project-box-content p {
+    color: grey;
+}
+
+.project-box-content a {
+    text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 8px 16px;
+    border-radius: 4px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.project-box-content img {
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 5px black;
+}
+#navbarNav{
+    padding-top: 10px;
+}
+a:hover {
+    
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.171);
+    
+}
+
+.education-text {
+    margin-top: 200px;
+}
+
+.education-text1 i{
+    font-size: 25px;
+}
+
+.education-text1 h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.education-text1 p {
+    color: grey;
+    font-size: 15px;
+}
+
+.education-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.education-text .education-text2 {
+    text-align: center;
+    color: white;
+    position: relative;
+    right: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.education-text2 div{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 8px;
+    padding: 30px;
+    transform: background-color 0.5s ease;
+    height:auto;
+}
+.education-text2 div:hover{
+    background-color:rgb(22, 21, 21);
+    
+}
+
+.education-text2 p {
+    font-size: 15px;
+    color: grey;
+}
+
+.education-text2 i {
+    font-size: 25px;
+    color:white;
+    
+}
+
+.contact-text {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.contact-text h1 {
+    color: black;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.contact-text p {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.contact-me-details-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contact-details {
+    background-color: black;
+    padding:30px;
+    color: white;
+    border-radius: 8px;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 40px;
+}
+
+.contact-details h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.contact-details p {
+    font-size: 16px;
+}
+
+.contact-details h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.contact-details a {
+    text-decoration: none;
+    color: black;
+    background-color: beige;
+    border-radius: 8px;
+    width: 150px;
+    height: auto;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.contact-details i {
+    color: aliceblue;
+    margin-right: 10px;
+}
+
+.contact-details #location {
+    margin-right: 6px;
+}
+
+#in {
+    position: relative;
+    right: -15px;
+}
+
+.contact-me-details-form .contact-form {
+    width: 600px;
+    height: 500px;
+    position: relative;
+    left: -80px;
+    padding: 60px;
+    position: relative;
+    top: -60px;
+}
+
+.contact-form label {
+    color: grey;
+}
+
+.contact-form input {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 500px;
+}
+
+input:focus {
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
+
+.contact-form textarea {
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 500px;
+}
+
+.contact-form textarea:hover {
+    border-bottom: 3px solid black;
+}
+
+.contact-form input:hover {
+    border-bottom: 3px solid black;
+    text-decoration: none;
+}
+
+#submit {
+    background-color: black;
+    border-radius: 8px;
+    color: aliceblue;
+    height: 50px;
+    width: 500px;
+}
+
+#submit:hover {
+    background-color: rgb(37, 37, 37);
+    border: none;
+}
+@media(max-width:1920px){
+    .project-box {
+        margin: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 250px;
+        position: relative;
+        left: 60px;
+        margin-right: 200px;
+    }
+}
+@media(max-width:1360px){
+    .project-box {
+        position: relative;
+        left: 13px;
+    }
+}
+@media (max-width: 1070px) {
+    .container {
+        width: 70%;
+    }
+    
+    .intro {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .intro h1 {
+        margin-left: 0;
+        font-size: 40px;
+    }
+
+    .intro p {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .intro-pic {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .skill-box {
+        flex-direction: column;
+        gap: 50px;
+        margin: 20px;
+    }
+
+    .project-box {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 25px;
+    }
+
+    .education-text {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .education-text .education-text1 {
+        text-align: center;
+    }
+
+    .education-text1 i {
+        display: none;
+    }
+
+    .education-text2 {
+        text-align: center;
+        position: relative;
+        left: 8px;
+    }
+
+    .contact-me {
+        margin-top: 200px;
+    }
+
+    .contact-me-details-form {
+        flex-direction: column;
+        gap: 50px;
+        margin: 20px;
+    }
+
+    .contact-details {
+        width: 80%;
+        height: auto;
+        padding: 30px;
+    }
+
+    .contact-form {
+        margin-left: 190px;
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 80%;
+    }
+
+    nav {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .container {
+        height: auto;
+        width: 500px;
+    }
+
+    .contact-details {
+        position: relative;
+        left: -10px;
+    }
+
+    .contact-me-details-form .contact-form {
+        position: relative;
+        left: -150px;
+        width: 500px;
+    }
+}
